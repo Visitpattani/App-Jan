@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("Title");
         toolbar.setTitleTextColor(Color.CYAN);
         getImages();
+        getImages2();
+        getImages3();
+        getImages4();
         toolbar.setSubtitle("Subtitle");
         toolbar.setSubtitleTextColor(Color.MAGENTA);
         toolbar.setLogo(R.mipmap.ic_launcher);
@@ -119,7 +122,138 @@ public class MainActivity extends AppCompatActivity {
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, mNames, mImageUrls);
         recyclerView.setAdapter(adapter);
     }
+    private void getImages2(){
+        Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
 
+        mImageUrls.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        mNames.add("Havasu Falls");
+
+        mImageUrls.add("https://i.redd.it/tpsnoz5bzo501.jpg");
+        mNames.add("Trondheim");
+
+        mImageUrls.add("https://i.redd.it/qn7f9oqu7o501.jpg");
+        mNames.add("Portugal");
+
+        mImageUrls.add("https://i.redd.it/j6myfqglup501.jpg");
+        mNames.add("Rocky Mountain National Park");
+
+
+        mImageUrls.add("https://i.redd.it/0h2gm1ix6p501.jpg");
+        mNames.add("Mahahual");
+
+        mImageUrls.add("https://i.redd.it/k98uzl68eh501.jpg");
+        mNames.add("Frozen Lake");
+
+
+        mImageUrls.add("https://i.redd.it/glin0nwndo501.jpg");
+        mNames.add("White Sands Desert");
+
+        mImageUrls.add("https://i.redd.it/obx4zydshg601.jpg");
+        mNames.add("Austrailia");
+
+        mImageUrls.add("https://i.imgur.com/ZcLLrkY.jpg");
+        mNames.add("Washington");
+
+        initRecyclerView2();
+
+    }
+    private void initRecyclerView2(){
+        Log.d(TAG, "initRecyclerView: init recyclerview");
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        RecyclerView recyclerView = findViewById(R.id.recyclerView2);
+        recyclerView.setLayoutManager(layoutManager);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, mNames, mImageUrls);
+        recyclerView.setAdapter(adapter);
+    }
+    private void getImages3(){
+        Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
+
+        mImageUrls.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        mNames.add("Havasu Falls");
+
+        mImageUrls.add("https://i.redd.it/tpsnoz5bzo501.jpg");
+        mNames.add("Trondheim");
+
+        mImageUrls.add("https://i.redd.it/qn7f9oqu7o501.jpg");
+        mNames.add("Portugal");
+
+        mImageUrls.add("https://i.redd.it/j6myfqglup501.jpg");
+        mNames.add("Rocky Mountain National Park");
+
+
+        mImageUrls.add("https://i.redd.it/0h2gm1ix6p501.jpg");
+        mNames.add("Mahahual");
+
+        mImageUrls.add("https://i.redd.it/k98uzl68eh501.jpg");
+        mNames.add("Frozen Lake");
+
+
+        mImageUrls.add("https://i.redd.it/glin0nwndo501.jpg");
+        mNames.add("White Sands Desert");
+
+        mImageUrls.add("https://i.redd.it/obx4zydshg601.jpg");
+        mNames.add("Austrailia");
+
+        mImageUrls.add("https://i.imgur.com/ZcLLrkY.jpg");
+        mNames.add("Washington");
+
+        initRecyclerView3();
+
+    }
+    private void initRecyclerView3(){
+        Log.d(TAG, "initRecyclerView: init recyclerview");
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        RecyclerView recyclerView = findViewById(R.id.recyclerView3);
+        recyclerView.setLayoutManager(layoutManager);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, mNames, mImageUrls);
+        recyclerView.setAdapter(adapter);
+    }
+    private void getImages4(){
+        Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
+
+        mImageUrls.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        mNames.add("Havasu Falls");
+
+        mImageUrls.add("https://i.redd.it/tpsnoz5bzo501.jpg");
+        mNames.add("Trondheim");
+
+        mImageUrls.add("https://i.redd.it/qn7f9oqu7o501.jpg");
+        mNames.add("Portugal");
+
+        mImageUrls.add("https://i.redd.it/j6myfqglup501.jpg");
+        mNames.add("Rocky Mountain National Park");
+
+
+        mImageUrls.add("https://i.redd.it/0h2gm1ix6p501.jpg");
+        mNames.add("Mahahual");
+
+        mImageUrls.add("https://i.redd.it/k98uzl68eh501.jpg");
+        mNames.add("Frozen Lake");
+
+
+        mImageUrls.add("https://i.redd.it/glin0nwndo501.jpg");
+        mNames.add("White Sands Desert");
+
+        mImageUrls.add("https://i.redd.it/obx4zydshg601.jpg");
+        mNames.add("Austrailia");
+
+        mImageUrls.add("https://i.imgur.com/ZcLLrkY.jpg");
+        mNames.add("Washington");
+
+        initRecyclerView4();
+
+    }
+    private void initRecyclerView4(){
+        Log.d(TAG, "initRecyclerView: init recyclerview");
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        RecyclerView recyclerView = findViewById(R.id.recyclerView4);
+        recyclerView.setLayoutManager(layoutManager);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, mNames, mImageUrls);
+        recyclerView.setAdapter(adapter);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

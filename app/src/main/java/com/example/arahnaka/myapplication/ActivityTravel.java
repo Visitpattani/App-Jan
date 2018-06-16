@@ -29,8 +29,8 @@ public class ActivityTravel extends AppCompatActivity {
         toolbar.setLogo(R.mipmap.ic_launcher);
         toolbar.setBackgroundColor(0xff2589BD);
         setSupportActionBar(toolbar);
-        TextView title = (TextView) findViewById(R.id.activitytitletravel);
-        title.setText("Travel");
+
+
         BottomNavigationView bottomNavigationView=(BottomNavigationView)findViewById(R.id.bottom_navigation);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
