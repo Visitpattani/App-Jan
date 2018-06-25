@@ -11,7 +11,7 @@
 
 
     <android.support.v7.widget.CardView
-        android:layout_width="170dp"
+        android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_centerInParent="true"
         android:layout_marginTop="5dp"
@@ -26,9 +26,9 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/image_view"
-                android:layout_width="165dp"
-                android:layout_height="130dp"
+                android:id="@+id/image_view2"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
                 android:background="@android:color/transparent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"
@@ -39,15 +39,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="Cannada"
-                android:layout_marginTop="50dp"
-                android:id="@+id/name"
+
+                android:id="@+id/name2"
                 android:layout_centerHorizontal="true"
                 android:fontFamily="monospace"
+                android:layout_below="@+id/image_view2"
                 android:textStyle="bold"
 
                 android:gravity="center"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:layout_marginBottom="0dp"
                 android:autoSizeTextType="uniform"
                 android:autoSizeMinTextSize="8sp"

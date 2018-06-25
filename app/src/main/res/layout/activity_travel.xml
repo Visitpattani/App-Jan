@@ -26,13 +26,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:itemBackground="@color/colorPrimary"
-        app:itemTextColor="#FFFFFF"
-        app:itemIconTint="@drawable/nav_item_color_state"
+        android:background="@drawable/white_grey_border_top"
+
+        app:itemTextColor="#000000"
+        app:itemIconTint="@color/Dark"
         app:menu="@menu/bottom_nav"
         />
 
-        <LinearLayout
+
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -53,6 +56,7 @@
                     android:weightSum="3"
                     android:background="@color/White">
                     <LinearLayout
+                        android:id="@+id/bot1"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -80,6 +84,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot2"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -107,6 +112,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot3"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -137,12 +143,14 @@
 
                 </LinearLayout>
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="4"
                     android:background="@color/White">
                     <LinearLayout
+                        android:id="@+id/bot4"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -170,6 +178,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot5"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -197,6 +206,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot6"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -224,6 +234,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot7"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -255,12 +266,14 @@
                 </LinearLayout>
 
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="2"
                     android:background="@color/White">
                     <LinearLayout
+                        android:id="@+id/bot8"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"
@@ -288,6 +301,7 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/bot9"
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_weight="1"

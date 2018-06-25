@@ -10,7 +10,7 @@
     <color name="colorBitterSweet">#FC6E51</color>
     <color name="colorBitterSweetDark">#E9573F</color>
     <color name="colorFlower">#FFCE54</color>
-    <color name="colorFlowerDark">#F68B42</color>
+    <color name="colorFlowerDark">#ECB113</color>
     <color name="colorGrass">#A0D468</color>
     <color name="colorGrassDark">#8CC152</color>
     <color name="colorBlueJean">#509CEC</color>
@@ -24,5 +24,7 @@
     <color name="colorPinkRose">#EC87C0</color>
     <color name="colorPinkRoseDark">#D770AD</color>
     <color name="defaultcolor">#fff3f3f3</color>
+    <color name="tran">#80000000</color>
+    <color name="grey">#c3c3c3</color>
 
 </resources>

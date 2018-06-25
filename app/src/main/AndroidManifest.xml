@@ -24,6 +24,12 @@
         <activity android:name=".ActivityTravel"></activity>
         <activity android:name=".ActivityPlan"></activity>
         <activity android:name=".ActivityMap"></activity>
+        <activity android:name=".ActivityExchange" />
+        <activity android:name=".ActivityHighlight" />
+        <activity android:name=".ActivityFood" />
+        <activity android:name=".ActivityShopping" />
+        <activity android:name=".ActivityGallery" />
+        <activity android:name=".Setting" />
     </application>
 
 </manifest>

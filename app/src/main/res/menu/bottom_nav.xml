@@ -4,21 +4,21 @@
     <item
         android:id="@+id/action_home"
         android:enabled="true"
-        android:icon="@drawable/ic_homm"
+        android:icon="@drawable/ic_home_black_24dp"
         android:title="Home"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/travelinfo"
         android:enabled="true"
         android:icon="@drawable/ic_p"
-        android:title="Travel"
+        android:title="Travel Info"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/plan"
         android:enabled="true"
         android:icon="@drawable/ic_a"
-        android:title="Plan"
+        android:title="Planning"
         app:showAsAction="ifRoom"
         />
     <item
@@ -26,6 +26,13 @@
         android:enabled="true"
         android:icon="@drawable/ic_m"
         android:title="Map"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/about"
+        android:enabled="true"
+        android:icon="@drawable/ic_error_outline_black_24dp"
+        android:title="About"
         app:showAsAction="ifRoom"
         />
 
