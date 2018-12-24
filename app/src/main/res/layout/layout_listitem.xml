@@ -15,9 +15,9 @@
         android:layout_height="140dp"
         android:layout_centerInParent="true"
         android:layout_marginTop="5dp"
-        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="4dp"
-        app:cardElevation="1dp"
+        app:cardElevation="0dp"
         app:cardMaxElevation="2dp">
 
 
@@ -28,10 +28,11 @@
             <ImageView
                 android:id="@+id/image_view"
                 android:layout_width="165dp"
-                android:layout_height="130dp"
-                android:background="@android:color/transparent"
+                android:layout_height="110dp"
+                android:background="@drawable/loading"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/loading"
+
                 android:layout_centerHorizontal="true"/>
 
 
@@ -39,18 +40,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:text="Cannada"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="5dp"
                 android:id="@+id/name"
                 android:layout_centerHorizontal="true"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/mitr_semibold"
                 android:textStyle="bold"
-
+                android:layout_below="@+id/image_view"
                 android:gravity="center"
+
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:layout_marginBottom="0dp"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMinTextSize="10sp"
                 android:autoSizeMaxTextSize="15sp"
 
 

@@ -5,59 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.arahnaka.myapplication.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 <ScrollView
     android:layout_width="match_parent"
-    android:layout_height="600dp">
+    android:layout_height="match_parent"
+    android:elevation="0dp"
+    android:layout_marginTop="55dp"
+    android:layout_marginBottom="50dp">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        app:elevation="0dp"
         android:theme="@style/AppTheme.AppBarOverlay"
         android:background="@color/White">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/white_grey_border_buttom"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_marginTop="10dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
-            android:weightSum="1" >
+            android:weightSum="1"
+            >
 
             <TextView
                 android:id="@+id/poiter"
                 android:paddingStart="15dp"
                 android:drawableLeft="@drawable/ic_maps_and_flags"
                 android:drawablePadding="6dp"
+
                 android:textSize="17sp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_weight="0.5"
-                android:fontFamily="monospace"
-                android:text="Atraction"
-                android:textColor="@color/Dark" />
+                android:fontFamily="@font/mitr_semibold"
+                android:text="สถานที่ท่องเที่ยว"
+
+                android:textColor="@color/darkgrey" />
 
 
             <TextView
-                android:id="@+id/plus"
-                android:textSize="17sp"
+                android:id="@+id/plus1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:fontFamily="monospace"
-                android:layout_marginStart="130dp"
 
-                android:textColor="@color/Dark"
-                android:text="+More"
-                />
+                android:layout_weight="0.5"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="ดูทั้งหมด >"
+                android:layout_marginLeft="95dp"
+                android:textColor="@color/colorBlueJean"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
         </LinearLayout>
 
 
@@ -67,7 +73,8 @@
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/background_light"
+            android:background="@android:color/white"
+            android:elevation="0dp"
             android:orientation="horizontal">
 
         </android.support.v7.widget.RecyclerView>
@@ -75,7 +82,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
-            android:weightSum="1" >
+            android:weightSum="2" >
             <TextView
                 android:id="@+id/poiter2"
                 android:paddingStart="15dp"
@@ -85,23 +92,25 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:layout_weight="0.5"
-                android:fontFamily="monospace"
-                android:text="Travel Themes"
-                android:textColor="@color/Dark" />
+                android:layout_weight="1"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="ธีมการท่องเที่ยว"
+                android:textColor="@color/darkgrey" />
 
 
             <TextView
                 android:id="@+id/plus2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:fontFamily="monospace"
-                android:layout_marginStart="130dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mitr_semibold"
+
+                android:layout_marginLeft="95dp"
 
                 android:textSize="17sp"
-                android:textColor="@color/Dark"
-                android:text="+More"
+                android:textColor="@color/colorBlueJean"
+                android:text="ดูทั้งหมด >"
+                android:textStyle="italic"
                 />
         </LinearLayout>
 
@@ -112,8 +121,9 @@
             android:id="@+id/recyclerView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/background_light"
-            android:orientation="horizontal">
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:elevation="0dp">
 
         </android.support.v7.widget.RecyclerView>
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -129,12 +139,12 @@
                 android:layout_width="fill_parent"
                 android:drawablePadding="6dp"
                 android:textSize="17sp"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/mitr_semibold"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
                 android:layout_marginStart="5dp"
-                android:text="Restuarants"
-                android:textColor="@color/Dark"/>
+                android:text="ร้านอาหาร"
+                android:textColor="@color/darkgrey"/>
 
 
             <TextView
@@ -142,12 +152,13 @@
                 android:textSize="17sp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/mitr_semibold"
                 android:layout_weight="0.5"
-                android:layout_marginStart="130dp"
+                android:layout_marginStart="95dp"
 
-                android:textColor="@color/Dark"
-                android:text="+More"
+                android:textColor="@color/colorBlueJean"
+                android:text="ดูทั้งหมด >"
+                android:textStyle="italic"
                 />
         </LinearLayout>
 
@@ -159,7 +170,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/background_light"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:elevation="0dp">
 
         </android.support.v7.widget.RecyclerView>
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -167,8 +179,9 @@
             android:layout_marginTop="10dp"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
+
             android:weightSum="1" >
-            <TextView
+            <!--<TextView
                 android:id="@+id/poiter4"
                 android:layout_width="fill_parent"
                 android:paddingStart="15dp"
@@ -194,38 +207,17 @@
                 android:textColor="@color/Dark"
                 android:text="+More"
                 />
+                -->
         </LinearLayout>
 
 
-
-        <android.support.v7.widget.RecyclerView
-            android:layout_marginTop="5dp"
-            android:id="@+id/recyclerView4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/background_light"
-            android:orientation="horizontal">
-
-        </android.support.v7.widget.RecyclerView>
 
 
     </android.support.design.widget.AppBarLayout>
 
 </ScrollView>
 
-    <android.support.design.widget.BottomNavigationView
-
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/white_grey_border_top"
-
-        app:itemTextColor="#000000"
-        app:itemIconTint="@color/Dark"
-        app:menu="@menu/bottom_nav"
-        />
-
+    <include layout="@layout/buttom_navi"/>
 
 
 

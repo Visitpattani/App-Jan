@@ -5,33 +5,20 @@
     android:padding="10dp"
     android:id="@+id/parent_layouttab1">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:id="@+id/imagetab1"
-        android:src="@mipmap/ic_launcher"/>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Package1"
+        android:layout_marginTop="5dp"
+        android:text="PlacesName"
         android:id="@+id/imagenametab1"
-        android:layout_toRightOf="@+id/imagetab1"
+android:padding="2dp"
         android:textColor="#000"
         android:layout_marginLeft="15dp"
-        android:textSize="20sp"
+        android:textSize="13sp"
         />
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Info"
-        android:layout_below="@+id/imagenametab1"
 
-    android:id="@+id/imagenameinfo1tab1"
-    android:layout_toRightOf="@+id/imagetab1"
-    android:textColor="#000"
-    android:layout_marginLeft="15dp"
-    android:textSize="18sp"/>
 
 
 </RelativeLayout>

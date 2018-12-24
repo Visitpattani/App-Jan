@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_weight="1"
+            android:id="@+id/imagegallHL"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loading"
+            android:background="@drawable/loading"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/desHL"
+            android:layout_marginTop="7dp"
+            android:text="ข้อมูลสถานที่ท่องเที่ยว"
+            android:fontFamily="@font/mitr_semibold"
+            android:textStyle="italic"
+            android:textColor="@color/Dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/image_description"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionHL"
+            android:layout_below="@+id/des_food"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="Canada"
+            android:textSize="14sp"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionHL"
+                android:layout_marginLeft="10dp"
+
+                android:text="ที่อยู่"
+                android:fontFamily="@font/mitr_semibold"
+                android:id="@+id/locaHL"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:layout_weight="0.1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/locateHL"
+                android:layout_weight="0.85"
+                android:text="Canada"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <include layout="@layout/buttom_navi"/>
+</RelativeLayout>

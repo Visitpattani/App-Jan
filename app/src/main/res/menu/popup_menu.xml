@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/TempleM"
+        android:title="วัด"
+        android:icon="@drawable/tem4"/>
+
+    <item android:id="@+id/BeachM"
+        android:title="ชายหาด"
+        android:icon="@drawable/beah8"/>
+
+    <item android:id="@+id/ForestM"
+        android:title="อุทยาน"
+        android:icon="@drawable/for3"/>
+
+    <item android:id="@+id/MuseumM"
+        android:title="พิพิธภัณฑ์"
+        android:icon="@drawable/mus6"/>
+
+    <item android:id="@+id/FoodM"
+        android:title="ร้านอาหาร"
+        android:icon="@drawable/foo1"/>
+
+    <item android:id="@+id/ShopM"
+        android:title="ร้านค้า"
+        android:icon="@drawable/sh3"/>
+
+    <item android:id="@+id/GasM"
+        android:title="ปั๊มน้ํามัน"
+        android:icon="@drawable/gas1"/>
+</menu>

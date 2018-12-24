@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.arahnaka.myapplication">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,27 +17,93 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD4B1StKeCRf9rta5dttAeKPshaSVyx8VQ" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="MainActivity"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".Start"
+            android:icon="@drawable/icon_app"
+            android:label="VisitPattani">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityTravel"></activity>
-        <activity android:name=".ActivityPlan"></activity>
-        <activity android:name=".ActivityMap"></activity>
+        <activity android:name=".ActivityTravel" />
+        <activity android:name=".ActivityPlan" />
+        <activity android:name=".ActivityMap" />
         <activity android:name=".ActivityExchange" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.Custom" />
         <activity android:name=".ActivityHighlight" />
         <activity android:name=".ActivityFood" />
         <activity android:name=".ActivityShopping" />
         <activity android:name=".ActivityGallery" />
+        <activity android:name=".GalleryNewActivity" />
+        <activity android:name=".GalleryHighlightActivity" />
+        <activity android:name=".GalleryHotelActivity" />
+        <activity android:name=".GalleryMarketActivity" />
         <activity android:name=".Setting" />
+        <activity android:name=".CheckIn" />
+        <activity android:name=".Travel_Diary" />
+        <activity android:name=".Tab1Fragment" />
+        <activity android:name=".ActivityGalleryFood" />
+        <activity android:name=".Travel_Food" />
+        <activity android:name=".Travel_Accom" />
+        <activity android:name=".Travel_Attract" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgetActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AgreeActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Map2Activity" />
+        <activity android:name=".ChooseActivity" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".PattaniActivity" />
+        <activity android:name=".Agree2Activity" />
+        <activity android:name=".VersionActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity
+            android:name=".HelpDetails"
+            android:label="@string/title_activity_help_details"
+            android:parentActivityName=".HelpActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arahnaka.myapplication.HelpActivity" />
+        </activity>
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".Highlight2Activity" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".MarketActivity" />
+        <activity
+            android:name=".TabHelpActivity"
+            android:label="@string/title_activity_tab_help"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PrayActivity" />
+        <activity
+            android:name=".PraysWebView"
+            android:label="@string/title_activity_prays_web_view"
+            android:parentActivityName=".PrayActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arahnaka.myapplication.PrayActivity" />
+        </activity>
+        <activity android:name=".ActivityHelp2" />
+        <activity android:name=".ActivityHelpDetail" />
+        <activity android:name=".ActivityPlan2"></activity>
     </application>
 
 </manifest>

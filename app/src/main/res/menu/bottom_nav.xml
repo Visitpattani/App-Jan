@@ -3,37 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_home"
-        android:enabled="true"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="Home"
-        app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/travelinfo"
-        android:enabled="true"
-        android:icon="@drawable/ic_p"
-        android:title="Travel Info"
-        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/home_icon_silhouette"
+
+        android:title="หน้าหลัก"
+        
         />
     <item
-        android:id="@+id/plan"
-        android:enabled="true"
-        android:icon="@drawable/ic_a"
-        android:title="Planning"
-        app:showAsAction="ifRoom"
+        android:id="@+id/travelinfo"
+
+        android:icon="@drawable/plane"
+        android:title="ท่องเที่ยว"
+
+        />
+    <item
+        android:id="@+id/checkinnavi"
+
+        android:icon="@drawable/check"
+        android:title="เช็คอิน"
+
         />
     <item
         android:id="@+id/map"
-        android:enabled="true"
-        android:icon="@drawable/ic_m"
-        android:title="Map"
-        app:showAsAction="ifRoom"
-        />
-    <item
-        android:id="@+id/about"
-        android:enabled="true"
-        android:icon="@drawable/ic_error_outline_black_24dp"
-        android:title="About"
-        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/street_map"
+        android:title="แผนที่"
+
         />
 
 </menu>

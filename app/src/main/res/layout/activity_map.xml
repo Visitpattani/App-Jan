@@ -16,18 +16,19 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
 
 
     </android.support.design.widget.AppBarLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:textSize="30sp"
-        android:id="@+id/activitytitlemap"
-        android:textAlignment="center"/>
 
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:id="@+id/map"
+    android:layout_marginTop="50dp"
+    android:text="TAB To Open A Map"/>
 
     <android.support.design.widget.BottomNavigationView
 
