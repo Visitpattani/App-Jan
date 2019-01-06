@@ -35,7 +35,7 @@
                 android:text="Canada"
                 android:layout_below="@+id/imagegall"
                 android:fontFamily="@font/mitr_semibold"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 android:textColor="#000"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -45,17 +45,17 @@
                 android:layout_marginTop="7dp"
                 android:text="Canada"
                 android:layout_below="@+id/image_description"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textColor="#000"/>
             <TextView
-                android:layout_width="50dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/location"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="ที่อยู่"
+                android:layout_marginTop="10dp"
+                android:text="กิจกรรมการท่องเที่ยว"
                 android:fontFamily="@font/mitr_semibold"
-                android:textSize="15sp"
+                android:textSize="18sp"
                 android:layout_below="@+id/description"
                 android:textColor="#000"
                 android:textStyle="italic"/>
@@ -66,11 +66,55 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="7dp"
                 android:text="Canada"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:layout_below="@+id/location"
                 android:textColor="#000"/>
             <TextView
-                android:layout_marginTop="55dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cost"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="ค่าใช้จ่าย"
+                android:fontFamily="@font/mitr_semibold"
+                android:textSize="18sp"
+                android:layout_below="@+id/location_input"
+                android:textColor="#000"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cost_input"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:text="Canada"
+                android:textSize="16sp"
+                android:layout_below="@+id/cost"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="ข้อมูลการติดต่อ"
+                android:fontFamily="@font/mitr_semibold"
+                android:textSize="18sp"
+                android:layout_below="@+id/cost_input"
+                android:textColor="#000"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tel_input"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:text="Canada"
+                android:textSize="16sp"
+                android:layout_below="@+id/tel"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>

@@ -182,7 +182,7 @@
                 android:layout_below="@+id/buttonSignin"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="15dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/transparent"
                 android:fontFamily="@font/mitr_extralight"
                 android:text=" ไม่ใช่ตอนนี้ "

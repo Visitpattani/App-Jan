@@ -28,7 +28,7 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".Start"
+            android:name=".GPS_TEST2"
             android:icon="@drawable/icon_app"
             android:label="VisitPattani">
             <intent-filter>
@@ -48,6 +48,7 @@
         <activity android:name=".ActivityFood" />
         <activity android:name=".ActivityShopping" />
         <activity android:name=".ActivityGallery" />
+        <activity android:name=".ActivityPlanDetail" />
         <activity android:name=".GalleryNewActivity" />
         <activity android:name=".GalleryHighlightActivity" />
         <activity android:name=".GalleryHotelActivity" />
@@ -74,6 +75,8 @@
         <activity android:name=".Agree2Activity" />
         <activity android:name=".VersionActivity" />
         <activity android:name=".HelpActivity" />
+        <activity android:name=".Start" />
+        <activity android:name=".GPS_Track" />
         <activity
             android:name=".HelpDetails"
             android:label="@string/title_activity_help_details"
@@ -104,6 +107,8 @@
         <activity android:name=".ActivityHelp2" />
         <activity android:name=".ActivityHelpDetail" />
         <activity android:name=".ActivityPlan2"></activity>
+
+
     </application>
 
 </manifest>
