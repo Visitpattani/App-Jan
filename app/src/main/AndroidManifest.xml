@@ -28,15 +28,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".GPS_TEST2"
-            android:icon="@drawable/icon_app"
-            android:label="VisitPattani">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".GPS_TEST2" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".ActivityTravel" />
         <activity android:name=".ActivityPlan" />
         <activity android:name=".ActivityMap" />
@@ -75,7 +68,14 @@
         <activity android:name=".Agree2Activity" />
         <activity android:name=".VersionActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".Start" />
+        <activity android:name=".Start"
+            android:icon="@drawable/icon_app"
+            android:label="VisitPattani">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".GPS_Track" />
         <activity
             android:name=".HelpDetails"
