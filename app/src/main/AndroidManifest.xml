@@ -61,6 +61,7 @@
         <activity android:name=".AgreeActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".ActivityPlan2" />
         <activity android:name=".Map2Activity" />
         <activity android:name=".ChooseActivity" />
         <activity android:name=".LanguageActivity" />
@@ -106,8 +107,11 @@
         </activity>
         <activity android:name=".ActivityHelp2" />
         <activity android:name=".ActivityHelpDetail" />
-        <activity android:name=".ActivityPlan2"></activity>
 
+
+        <activity android:name=".spiner" />
+        <activity android:name=".PlanningList" />
+        <activity android:name=".PlanningGallery" />
 
     </application>
 

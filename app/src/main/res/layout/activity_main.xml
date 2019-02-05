@@ -39,15 +39,13 @@
                 android:paddingStart="15dp"
                 android:drawableLeft="@drawable/ic_maps_and_flags"
                 android:drawablePadding="6dp"
-
                 android:textSize="17sp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/mitr_semibold"
-                android:text="สถานที่ท่องเที่ยว"
-
+                android:text="@string/MA1"
                 android:textColor="@color/darkgrey" />
 
 
@@ -55,10 +53,9 @@
                 android:id="@+id/plus1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_weight="0.5"
                 android:fontFamily="@font/mitr_semibold"
-                android:text="ดูทั้งหมด >"
+                android:text="@string/MA2"
                 android:layout_marginLeft="95dp"
                 android:textColor="@color/colorBlueJean"
                 android:textSize="17sp"
@@ -94,7 +91,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/mitr_semibold"
-                android:text="ธีมการท่องเที่ยว"
+                android:text="@string/MA3"
                 android:textColor="@color/darkgrey" />
 
 
@@ -104,12 +101,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/mitr_semibold"
-
                 android:layout_marginLeft="95dp"
-
                 android:textSize="17sp"
                 android:textColor="@color/colorBlueJean"
-                android:text="ดูทั้งหมด >"
+                android:text="@string/MA4"
                 android:textStyle="italic"
                 />
         </LinearLayout>
@@ -143,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
                 android:layout_marginStart="5dp"
-                android:text="ร้านอาหาร"
+                android:text="@string/MA5"
                 android:textColor="@color/darkgrey"/>
 
 
@@ -155,9 +150,8 @@
                 android:fontFamily="@font/mitr_semibold"
                 android:layout_weight="0.5"
                 android:layout_marginStart="95dp"
-
                 android:textColor="@color/colorBlueJean"
-                android:text="ดูทั้งหมด >"
+                android:text="@string/MA6"
                 android:textStyle="italic"
                 />
         </LinearLayout>
@@ -210,16 +204,10 @@
                 -->
         </LinearLayout>
 
-
-
-
     </android.support.design.widget.AppBarLayout>
 
 </ScrollView>
 
     <include layout="@layout/buttom_navi"/>
-
-
-
 
 </RelativeLayout>

@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    ///////default-Thai////////
+    ///////Thai////////
     ////CHOOSEN////
     <string name="CH1">ยินดีต้อนรับสู่</string>
     <string name="CH2">VisitPattani</string>
@@ -78,7 +79,6 @@
     <string name="MP4">เเนะนำ</string>
     <string name="MP5">ล้างมาร์ค</string>
     <string name="MP6">เมนู</string>
-    ////POPMAP////
     <string name="MP7">วัด</string>
     <string name="MP8">ชายหาด</string>
     <string name="MP9">อุทยาน</string>
@@ -86,7 +86,6 @@
     <string name="MP11">ร้านอาหาร</string>
     <string name="MP12">ร้านค้า</string>
     <string name="MP13">ปั๊มน้ํามัน</string>
-
     /////BOTTOM NAVI////
     <string name="BN1">หน้าหลัก</string>
     <string name="BN2">ท่องเที่ยว</string>
@@ -155,7 +154,6 @@
     ////VERSION////
     <string name="VS1">เวอร์ชั่น : 1.0.3</string>
     <string name="VS2">สนับสนุนโดย: ศูนย์บริการวิชาการ มหาวิทยาลัยสงขลานครินทร์</string>
-
 
 
     <string name="app_name">My Application</string>

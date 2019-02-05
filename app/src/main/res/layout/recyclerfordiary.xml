@@ -37,38 +37,28 @@
                     android:paddingStart="15dp"
                     android:drawableLeft="@drawable/ic_maps_and_flags"
                     android:drawablePadding="6dp"
-
                     android:textSize="17sp"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:layout_weight="0.5"
                     android:fontFamily="@font/mitr_semibold"
-                    android:text="วันนี้"
-
+                    android:text="@string/DR1"
                     android:textColor="@color/darkgrey" />
-
-
-
             </LinearLayout>
 
-
-
             <android.support.v7.widget.RecyclerView
-
                 android:id="@+id/recyclerViewTab1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
                 android:orientation="horizontal">
-
             </android.support.v7.widget.RecyclerView>
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:orientation="horizontal"
                 android:layout_marginTop="15dp"
-
                 android:weightSum="1" >
                 <TextView
                     android:id="@+id/poiter2"
@@ -82,17 +72,13 @@
                     android:layout_marginStart="5dp"
                     android:layout_weight="0.5"
                     android:fontFamily="@font/mitr_semibold"
-                    android:text="3 วันที่แล้ว"
+                    android:text="@string/DR2"
                     android:textColor="@color/darkgrey" />
-
-
-
             </LinearLayout>
 
 
 
             <android.support.v7.widget.RecyclerView
-
                 android:id="@+id/recyclerViewTab2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

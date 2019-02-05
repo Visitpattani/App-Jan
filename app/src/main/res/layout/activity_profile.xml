@@ -73,7 +73,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="2dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="กรุณากรอกข้อมูลเพิ่มเตืม"
+                        android:text="@string/PF1"
                         android:textSize="22dp"
                         android:textStyle="bold" />
 
@@ -84,7 +84,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="ชื่อ-นามสกุล"
+                        android:text="@string/PF2"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -124,7 +124,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="เพศ"
+                        android:text="@string/PF3"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -143,7 +143,7 @@
                             android:checked="true"
                             android:fontFamily="@font/mitr_extralight"
                             android:onClick="rbclick"
-                            android:text="ชาย"
+                            android:text="@string/PF4"
                             android:textStyle="bold" />
 
                         <RadioButton
@@ -154,7 +154,7 @@
                             android:checked="false"
                             android:fontFamily="@font/mitr_extralight"
                             android:onClick="rbclick"
-                            android:text="หญิง"
+                            android:text="@string/PF5"
                             android:textStyle="bold" />
                     </RadioGroup>
 
@@ -165,7 +165,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="อายุ"
+                        android:text="@string/PF6"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -187,7 +187,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="สัญชาติ"
+                        android:text="@string/PF7"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -205,7 +205,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="ที่อยู่"
+                        android:text="@string/PF8"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -226,7 +226,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="สถานที่พัก"
+                        android:text="@string/PF9"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -247,7 +247,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="งบประมาณท่องเที่ยว"
+                        android:text="@string/PF10"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -268,13 +268,13 @@
 
                         <TextView
                             android:layout_width="150dp"
-                            android:layout_height="20dp"
+                            android:layout_height="30dp"
                             android:layout_centerVertical="true"
                             android:layout_toEndOf="@+id/editTextCostter"
                             android:layout_toRightOf="@+id/editTextCostter"
                             android:fontFamily="@font/mitr_extralight"
                             android:gravity="left"
-                            android:text="บาท"
+                            android:text="@string/PF11"
                             android:textSize="17dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
@@ -286,7 +286,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="ระยะเวลาการท่องเที่ยว"
+                        android:text="@string/PF12"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -307,13 +307,13 @@
 
                         <TextView
                             android:layout_width="150dp"
-                            android:layout_height="20dp"
+                            android:layout_height="30dp"
                             android:layout_centerVertical="true"
                             android:layout_toEndOf="@+id/editTextTTR"
                             android:layout_toRightOf="@+id/editTextTTR"
                             android:fontFamily="@font/mitr_extralight"
                             android:gravity="left"
-                            android:text="วัน"
+                            android:text="@string/PF13"
                             android:textSize="17dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
@@ -326,7 +326,7 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="พาหนะใช้เดินทาง"
+                        android:text="@string/PF14"
                         android:textSize="17dp"
                         android:textStyle="bold" />
 
@@ -351,7 +351,7 @@
                     android:layout_marginBottom="80dp"
                     android:background="@color/colorBlueJean"
                     android:fontFamily="@font/mitr_extralight"
-                    android:text="บันทึกข้อมูล"
+                    android:text="@string/PF15"
                     android:textColor="@color/white"
                     android:textSize="17sp"
                     android:textStyle="bold" />

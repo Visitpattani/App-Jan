@@ -45,7 +45,7 @@
             android:textColor="#000"
             android:id="@+id/input_search2"
             android:background="@null"
-            android:hint="ค้นหาสถานที่"
+            android:hint="@string/MP1"
             android:fontFamily="@font/mitr_extralight"
             android:textStyle="bold"
             android:imeOptions="actionSearch"/>
@@ -93,7 +93,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ปัจจุบัน"
+                    android:text="@string/MP2"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ใกล้เคียง"
+                    android:text="@string/MP3"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -156,7 +156,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="เเนะนำ"
+                    android:text="@string/MP4"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -190,7 +190,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ล้างมาร์ค"
+                    android:text="@string/MP5"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -224,7 +224,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="เมนู"
+                    android:text="@string/MP6"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -256,7 +256,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="วัด"
+                    android:text="@string/MP7"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -288,7 +288,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ชายหาด"
+                    android:text="@string/MP8"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -320,7 +320,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="อุทยาน"
+                    android:text="@string/MP9"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -352,7 +352,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="พิพิธภัณฑ์"
+                    android:text="@string/MP10"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -384,7 +384,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ร้านอาหาร"
+                    android:text="@string/MP11"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -416,7 +416,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ร้านค้า"
+                    android:text="@string/MP12"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -448,7 +448,7 @@
                     android:layout_marginTop="2dp"
                     android:fontFamily="@font/mitr_extralight"
                     android:scaleType="centerCrop"
-                    android:text="ปั๊มน้ํามัน"
+                    android:text="@string/MP13"
                     android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>

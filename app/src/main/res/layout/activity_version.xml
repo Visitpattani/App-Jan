@@ -24,16 +24,13 @@
         android:background="@drawable/white_border"
         >
 
-
-
         <TextView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/mitr_extralight"
-            android:text="เวอร์ชั่น : 1.0.2"
+            android:text="@string/VS1"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -56,7 +53,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/mitr_extralight"
-            android:text="สนับสนุนโดย: ศูนย์บริการวิชาการ มหาวิทยาลัยสงขลานครินทร์"
+            android:text="@string/VS2"
             android:textSize="16dp"
             android:textStyle="bold" />
 
@@ -65,11 +62,24 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="275dp"
+        android:layout_height="225dp"
         android:layout_below="@+id/Version2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-5dp"
         android:src="@drawable/psuboat5"
         app:layout_constraintTop_toBottomOf="@+id/Version2" />
+
+    <ImageView
+        android:id="@+id/NSC"
+
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/nsc"
+       />
+
+
 
 </RelativeLayout>

@@ -22,8 +22,6 @@
             >
 
 
-
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="225dp"
@@ -49,10 +47,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/description"
+        android:layout_below="@+id/image_description"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="7dp"
         android:text="Canada"
-        android:layout_below="@+id/image_description"
         android:textSize="14sp"
         android:textColor="#000"/>
             <TextView

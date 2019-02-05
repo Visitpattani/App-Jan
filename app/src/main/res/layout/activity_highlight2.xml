@@ -75,7 +75,7 @@
                         android:textStyle="bold"
                         android:textColor="@color/ColorPrimaryText"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="@string/recent_newsHL"
+                        android:text="@string/HL1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -85,8 +85,9 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="12dp"
+                        android:layout_marginRight="5dp"
                         android:fontFamily="@font/mitr_extralight"
-                        android:text="ค้นหาเพิ่มเติม > "
+                        android:text="@string/HL2"
                         android:gravity="right"
                         android:textColor="@color/colorBlueJean"
                         android:textSize="18dp"

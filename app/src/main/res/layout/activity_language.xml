@@ -29,7 +29,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/mitr_extralight"
-            android:text="ภาษาไทบ"
+            android:text="@string/CH5"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/mitr_extralight"
-            android:text="ภาษาอังกฤษ"
+            android:text="@string/CH6"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/mitr_extralight"
-            android:text="ภาษามลายู"
+            android:text="@string/CH7"
             android:textSize="20dp"
             android:textStyle="bold" />
 

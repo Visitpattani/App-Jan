@@ -19,10 +19,6 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-
-
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -77,7 +73,7 @@
                             android:fontFamily="@font/mitr_semibold"
                             android:background="@color/colorAquaDark"
                             android:textSize="17sp"
-                            android:text="ไฮไลท์"
+                            android:text="@string/TV1"
                             android:textAlignment="center"
                             android:textColor="@color/White"/>
 
@@ -106,7 +102,7 @@
                             android:layout_marginTop="13dp"
                             android:background="@color/colorBlueJeanDark"
                             android:textSize="17sp"
-                            android:text="ข่าวใหม่"
+                            android:text="@string/TV2"
                             android:textAlignment="center"
                             android:textColor="@color/White"/>
 
@@ -135,7 +131,7 @@
                             android:fontFamily="@font/mitr_semibold"
                             android:background="@color/colorLavenderDark"
                             android:textSize="17sp"
-                            android:text="ธีม"
+                            android:text="@string/TV3"
                             android:textAlignment="center"
                             android:textColor="@color/White"/>
 
@@ -172,7 +168,7 @@
                     android:padding="1dp"
                     android:background="@color/colorLavenderDark"
                     android:textSize="17sp"
-                    android:text="วางแผน"
+                    android:text="@string/TV4"
                     android:fontFamily="@font/mitr_semibold"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
@@ -202,7 +198,7 @@
                     android:background="@color/colorAquaDark"
                     android:textSize="17sp"
                     android:fontFamily="@font/mitr_semibold"
-                    android:text="ไดอารี่"
+                    android:text="@string/TV5"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 
@@ -230,7 +226,7 @@
                     android:layout_marginTop="13dp"
                     android:background="@color/colorBlueJeanDark"
                     android:textSize="17sp"
-                    android:text="ร้านอาหาร"
+                    android:text="@string/TV6"
                     android:fontFamily="@font/mitr_semibold"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
@@ -270,7 +266,7 @@
                     android:fontFamily="@font/mitr_semibold"
                     android:background="@color/colorBlueJeanDark"
                     android:textSize="17sp"
-                    android:text="ที่พัก"
+                    android:text="@string/TV7"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 
@@ -299,7 +295,7 @@
                     android:background="@color/colorLavenderDark"
                     android:fontFamily="@font/mitr_semibold"
                     android:padding="1dp"
-                    android:text="ร้านค้า"
+                    android:text="@string/TV8"
                     android:textAlignment="center"
                     android:textColor="@color/White"
                     android:textSize="17sp" />
@@ -329,7 +325,7 @@
                     android:layout_marginTop="13dp"
                     android:background="@color/colorAquaDark"
                     android:textSize="17sp"
-                    android:text="ละหมาด"
+                    android:text="@string/TV9"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 
@@ -368,7 +364,7 @@
                     android:padding="1dp"
                     android:background="@color/colorAquaDark"
                     android:textSize="17sp"
-                    android:text="ค่าเงิน"
+                    android:text="@string/TV10"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 
@@ -397,7 +393,7 @@
                     android:background="@color/colorBlueJeanDark"
                     android:textSize="17sp"
                     android:fontFamily="@font/mitr_semibold"
-                    android:text="ช่วยเหลือ"
+                    android:text="@string/TV11"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 
@@ -426,7 +422,7 @@
                     android:layout_marginTop="13dp"
                     android:background="@color/colorLavenderDark"
                     android:textSize="17sp"
-                    android:text="เกี่ยวกับ"
+                    android:text="@string/TV12"
                     android:textAlignment="center"
                     android:textColor="@color/White"/>
 

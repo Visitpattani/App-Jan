@@ -47,7 +47,7 @@
             android:textColor="#000"
             android:id="@+id/input_search"
             android:background="@null"
-            android:hint="ค้นหาสถานที่ "
+            android:hint="@string/CI1"
             android:fontFamily="@font/mitr_extralight"
             android:textStyle="bold"
             android:imeOptions="actionSearch"/>
@@ -91,7 +91,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/place_picker"
-            android:text="เช็คอิน"
+            android:text="@string/CI2"
             android:textSize="18dp"
             android:textStyle="bold"
             android:fontFamily="@font/mitr_extralight"/>

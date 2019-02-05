@@ -22,7 +22,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         android:fontFamily="@font/mitr_extralight"
         android:gravity="center"
-        android:text="ข้อกำหนดและเงื่อนไขในการใช้งาน VisitPattani"
+        android:text="@string/AG1"
         android:textColor="@color/colorBlueJean"
         android:textSize="22dp"
         android:textStyle="bold" />
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="  เพื่อปกป้องสิทธิของคุณโปรดอ่านเงื่อนไขการให้บริการทั้งหมดและตกลงที่จะปฏิบัติตามข้อตกลงและเงื่อนไขทั้งหมดต่อไปนี้ของบริการสมาชิก"
+                android:text="@string/AG2"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1. คำนิยาม"
+                android:text="@string/AG3"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="คำและข้อความต่อไปนี้จะมีความหมายตามที่กำหนดไว้ด้านล่างนี้เมื่อมีการใช้ในข้อกำหนดและเงื่อนไขฯ"
+                android:text="@string/AG4"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1.1 เนื้อหา หมายถึง ข้อมูล เช่น ข้อความ ไฟล์เสียง เพลง รูปภาพ วิดีโอ ซอฟต์แวร์ โปรแกรม รหัสคอมพิวเตอร์ และสิ่งอื่นๆ ที่คล้ายคลึงกัน"
+                android:text="@string/AG5"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1.2 เนื้อหาฯ หมายถึง เนื้อหาที่สามารถเข้าถึงได้ผ่านทางบริการฯ"
+                android:text="@string/AG6"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1.3 เนื้อหาจากผู้ใช้ หมายถึง เนื้อหาที่ผู้ใช้ได้ส่ง ส่งผ่าน หรือ อัพโหลด"
+                android:text="@string/AG7"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -100,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1.4 เหรียญ หมายถึง สกุลเงินเสมือนจริงซึ่งผู้ใช้สามารถใช้เพื่อชำระเงินสำหรับเนื้อหาและบริการต่างๆ ที่บริษัทฯ เสนอ ซึ่งมีค่าบริการ"
+                android:text="@string/AG8"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="1.5 ข้อกำหนดและเงื่อนไขฯ เพิ่มเติม หมายถึง เอกสารที่บริษัทฯ ออกหรืออัพโหลดซึ่งเกี่ยวกับบริการฯ ภายใต้ชื่อ ข้อตกลง แนวทางปฏิบัติ นโยบาย และอื่นๆ ในทำนองเดียวกัน"
+                android:text="@string/AG9"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="2. การตกลงยอมรับข้อกำหนดและเงื่อนไขฯ"
+                android:text="@string/AG10"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="2.1 ผู้ใช้ทุกรายจะต้องใช้บริการฯ ตามข้อกำหนดที่ระบุไว้ในข้อกำหนดและเงื่อนไขฯ ผู้ใช้จะไม่สามารถใช้บริการฯ ได้เว้นเสียแต่ว่า ผู้ใช้ได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้"
+                android:text="@string/AG11"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -134,7 +134,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="2.2 ผู้เยาว์สามารถใช้บริการฯ ได้ต่อเมื่อได้รับความยินยอมจากบิดามารดาหรือผู้ปกครองตามกฎหมายเท่านั้น นอกจากนี้ หากผู้ใช้ใช้บริการฯ แทน หรือ เพื่อวัตถุประสงค์ขององค์กรธุรกิจใดๆ จะถือว่า องค์กรธุรกิจดังกล่าวได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ นี้ด้วยแล้ว การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้"
+                android:text="@string/AG12"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -142,7 +142,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="2.3 การที่ผู้ใช้ใช้บริการฯ ถือว่า ผู้ใช้ได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้"
+                android:text="@string/AG13"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="2.4 หากมีข้อกำหนดและเงื่อนไขฯ เพิ่มเติมสำหรับบริการฯ ผู้ใช้จะต้องปฏิบัติตามข้อกำหนดและเงื่อนไขฯ เพิ่มเติมนั้นด้วยเช่นเดียวกับข้อกำหนดและเงื่อนไขฯ นี้"
+                android:text="@string/AG14"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -159,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="3. การแก้ไขข้อกำหนดและเงื่อนไขฯ"
+                android:text="@string/AG15"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -168,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="  บริษัทฯ อาจแก้ไขข้อกำหนดและเงื่อนไขฯ หรือ ข้อกำหนดและเงื่อนไขฯ เพิ่มเติม เมื่อบริษัทฯ เห็นว่ามีความจำเป็น โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าแก่ผู้ใช้ การแก้ไขจะมีผลบังคับเมื่อมีการประกาศข้อกำหนดและเงื่อนไขฯ ที่แก้ไข หรือข้อกำหนดและเงื่อนไขฯ เพิ่มเติมที่แก้ไขไว้ในสถานที่ที่เหมาะสมภายในเว็บไซต์ที่บริษัทฯ เป็นผู้ดำเนินงาน การที่ผู้ใช้ใช้บริการฯ ต่อไป ถือว่าผู้ใช้ได้ให้การยอมรับที่มีผลสมบูรณ์และเพิกถอนมิได้ต่อข้อกำหนดและเงื่อนไขฯ ที่แก้ไขแล้ว หรือข้อกำหนดและเงื่อนไขฯ เพิ่มเติมที่แก้ไขแล้ว ผู้ใช้ควรตรวจสอบข้อกำหนดและเงื่อนไขฯ เป็นประจำระหว่างการใช้บริการฯ เนื่องจากอาจไม่มีการแจ้งเตือนแยกต่างหากเกี่ยวกับการแก้ไขข้อกำหนดและเงื่อนไขฯ ดังกล่าว"
+                android:text="@string/AG16"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -177,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4. บัญชี"
+                android:text="@string/AG17"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.1 เมื่อผู้ใช้ให้ข้อมูลเกี่ยวกับตนเองแก่บริษัทฯ ผู้ใช้จะต้องให้ข้อมูลที่เป็นจริง ถูกต้องและครบถ้วนในขณะที่ใช้บริการฯ และปรับปรุงข้อมูลดังกล่าวให้เป็นปัจจุบันอยู่ตลอดเวลา"
+                android:text="@string/AG18"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -195,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.2 หากผู้ใช้ลงทะเบียนรหัสผ่านในขณะที่ใช้บริการฯ ผู้ใช้จะต้องใช้ความระมัดระวังและมีความรับผิดชอบตามสมควรเพื่อไม่ให้มีการใช้รหัสผ่านในลักษณะที่ไม่ชอบด้วยกฎหมาย บริษัทฯ สามารถถือว่ากิจกรรมต่างๆ ที่ดำเนินการโดยใช้รหัสผ่านดังกล่าว เป็นกิจกรรมที่ผู้เป็นเจ้าของรหัสผ่านได้ดำเนินการด้วยตนเอง"
+                android:text="@string/AG19"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -204,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.3 ผู้ใช้งานที่จดทะเบียนใช้บริการฯ สามารถลบบัญชีของตนและเลิกใช้บริการฯ ได้ ไม่ว่าในเวลาใดๆ ก็ตาม"
+                android:text="@string/AG20"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.4 บริษัทฯ อาจระงับหรือลบบัญชีของผู้ใช้ได้โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าแก่ผู้ใช้ หากบริษัทฯ เห็นว่าผู้ใช้กำลังละเมิดหรือได้ละเมิดข้อกำหนดและเงื่อนไขฯ "
+                android:text="@string/AG21"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -222,7 +222,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.5 บริษัทฯ สงวนสิทธิที่จะลบบัญชีใดๆ ที่ไม่มีการเปิดใช้งานเป็นเวลา 1 ปีหรือนานกว่านั้นนับตั้งแต่วันที่มีการเปิดใช้งานบัญชีดังกล่าวครั้งล่าสุด โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าใดๆ แก่ผู้ใช้"
+                android:text="@string/AG22"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -231,7 +231,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.6 สิทธิที่จะใช้บริการของผู้ใช้จะสิ้นสุดลงเมื่อมีการลบบัญชีของผู้ใช้ไม่ว่าด้วยเหตุผลใดๆ ก็ตาม บัญชีจะไม่สามารถกู้คืนมาได้แม้ว่าผู้ใช้จะลบบัญชีของตนโดยไม่ได้ตั้งใจก็ตาม และบริษัทฯ ขอให้ผู้ใช้ตระหนักถึงเรื่องนี้ด้วย"
+                android:text="@string/AG23"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -240,7 +240,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="4.7 บัญชีแต่ละบัญชีในบริการฯ มีไว้เพื่อการใช้งานเฉพาะและเป็นของเจ้าของบัญชีแต่เพียงผู้เดียวเท่านั้น ผู้ใช้ไม่สามารถโอนหรือให้ยืมบัญชีของตนแก่บุคคลภายนอกใดๆ และบุคคลภายนอกใดๆ ไม่สามารถรับช่วงบัญชีจากผู้ใช้ได้"
+                android:text="@string/AG24"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -249,7 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="5. การคุ้มครองข้อมูลส่วนบุคคล"
+                android:text="@string/AG25"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -258,7 +258,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="5.1 บริษัทฯ ให้ความสำคัญแก่ความเป็นส่วนตัวของผู้ใช้ของบริษัทฯ เป็นลำดับแรก"
+                android:text="@string/AG26"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -267,7 +267,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="5.2 บริษัทฯ สัญญาว่าจะคุ้มครองความเป็นส่วนตัวและข้อมูลส่วนบุคคลของผู้ใช้ของบริษัทฯ ตาม นโยบายของไลน์ว่าด้วยการคุ้มครองข้อมูลส่วนบุคคล "
+                android:text="@string/AG27"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -276,7 +276,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/mitr_extralight"
-                android:text="5.3 บริษัทฯ สัญญาที่จะใช้ความระมัดระวังและความใส่ใจอย่างสูงสุดเกี่ยวกับมาตรการรักษาความปลอดภัยของบริษัทฯ เพื่อให้มีการรักษาความปลอดภัยของข้อมูลใดๆ ของผู้ใช้ ทั้งหมด"
+                android:text="@string/AG28"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
@@ -294,7 +294,7 @@
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
         android:background="@color/colorBlueJean"
-        android:text="ย้อนกลับ"
+        android:text="@string/AG29"
         android:fontFamily="@font/mitr_extralight"
         android:textColor="@color/white"
         android:textSize="17sp"

@@ -36,7 +36,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="40dp"
                 android:text="Cannada"
                 android:layout_marginTop="5dp"
                 android:id="@+id/name_food"
@@ -44,7 +44,7 @@
                 android:fontFamily="@font/mitr_semibold"
                 android:textStyle="bold"
                 android:layout_toRightOf="@+id/image_view_food"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="15dp"
                 android:gravity="center"
                 android:textAlignment="center"
                 android:textColor="#000"
